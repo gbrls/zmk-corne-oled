@@ -44,12 +44,12 @@ layers:
   - {t: /, s: '?'}
   - {t: CODE, h: toggle}
   - {t: '=', h: CODE, s: +}
-  - {t: '$$mdi:keyboard-return$$', h: META}
+  - {t: '$$mdi:keyboard-return$$', h: NAV}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-space$$', h: META}
+  - {t: '$$mdi:keyboard-space$$', h: NAV}
   - {t: '-', h: CODE, s: _}
-  META:
+  NAV:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -64,7 +64,7 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  - BT CLR ALL
+  - BT 0
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -100,17 +100,17 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   CODE:
   - {t: '`', s: '~'}
-  - Q
-  - W
-  - E
-  - R
+  - {t: '[', s: '{'}
+  - (
+  - )
+  - {t: ']', s: '}'}
   - T
   - $$mdi:arrow-up-bold$$
   - Y
-  - U
-  - I
-  - O
-  - P
+  - <
+  - '{'
+  - '}'
+  - '>'
   - {t: \, s: '|'}
   - $$mdi:keyboard-esc$$
   - {t: '1', h: LGUI, s: '!'}
@@ -141,12 +141,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: BASE, h: toggle}
-  - {t: '=', h: META, s: +, type: held}
+  - {t: '=', h: NAV, s: +, type: held}
   - {t: '$$mdi:keyboard-return$$', h: CODE}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-space$$', h: CODE}
-  - {t: '-', h: META, s: _, type: held alternate}
+  - {t: '-', h: NAV, s: _, type: held alternate}
   Fn:
   - '&studio_unlock'
   - F1
