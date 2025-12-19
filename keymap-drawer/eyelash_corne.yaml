@@ -43,12 +43,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: CODE, h: toggle}
-  - {t: '=', h: META, s: +}
-  - {t: '$$mdi:keyboard-return$$', h: CODE}
+  - {t: '=', h: CODE, s: +}
+  - {t: '$$mdi:keyboard-return$$', h: META}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-space$$', h: CODE}
-  - {t: '-', h: META, s: _}
+  - {t: '$$mdi:keyboard-space$$', h: META}
+  - {t: '-', h: CODE, s: _}
   META:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -92,12 +92,12 @@ layers:
   - RGB BRD
   - END
   - PG DN
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - INS
-  - $$mdi:backspace-reverse-outline$$
-  - {type: held alternate}
+  - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   CODE:
   - {t: '`', s: '~'}
   - Q
@@ -128,25 +128,25 @@ layers:
   - {t: '0', h: RGUI, s: )}
   - {t: '''', s: '"'}
   - {t: BASE, h: toggle}
-  - Z
-  - X
-  - C
-  - V
-  - B
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
-  - N
-  - M
-  - {t: ',', s: <}
+  - ^
+  - '&'
+  - '*'
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: BASE, h: toggle}
-  - {t: '=', h: META, s: +}
-  - {t: '$$mdi:keyboard-return$$', h: CODE, type: held}
+  - {t: '=', h: META, s: +, type: held}
+  - {t: '$$mdi:keyboard-return$$', h: CODE}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-space$$', h: CODE, type: held alternate}
-  - {t: '-', h: META, s: _}
+  - {t: '$$mdi:keyboard-space$$', h: CODE}
+  - {t: '-', h: META, s: _, type: held alternate}
   Fn:
   - '&studio_unlock'
   - F1
