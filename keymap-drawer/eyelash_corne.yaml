@@ -29,7 +29,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: RGUI, s: ':'}
   - {t: '''', s: '"'}
-  - {t: CODE, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: CODE, h: toggle}
   - Z
   - X
   - C
@@ -42,7 +42,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: CODE, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: CODE, h: toggle}
   - {t: '=', h: META, s: +}
   - {t: '$$mdi:keyboard-return$$', h: CODE}
   - $$mdi:keyboard-tab$$
@@ -127,7 +127,7 @@ layers:
   - {t: '9', h: '$$mdi:apple-keyboard-option$$', s: (}
   - {t: '0', h: RGUI, s: )}
   - {t: '''', s: '"'}
-  - {t: BASE, h: '$$mdi:gesture-tap-hold$$', type: held}
+  - {t: BASE, h: toggle}
   - Z
   - X
   - C
@@ -140,9 +140,9 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: BASE, h: '$$mdi:gesture-tap-hold$$', type: held alternate}
+  - {t: BASE, h: toggle}
   - {t: '=', h: META, s: +}
-  - {t: '$$mdi:keyboard-return$$', h: CODE, type: held alternate}
+  - {t: '$$mdi:keyboard-return$$', h: CODE, type: held}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-space$$', h: CODE, type: held alternate}
