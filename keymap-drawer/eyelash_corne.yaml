@@ -29,7 +29,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: RGUI, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-control$$
+  - {t: CODE, h: '$$mdi:gesture-tap-hold$$'}
   - Z
   - X
   - C
@@ -42,7 +42,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:keyboard-esc$$
+  - {t: CODE, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '=', h: META, s: +}
   - {t: '$$mdi:keyboard-return$$', h: CODE}
   - $$mdi:keyboard-tab$$
@@ -99,54 +99,54 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {type: held alternate}
   CODE:
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:bluetooth-off$$
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
-  - '&mkp MB4'
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: \, s: '|'}
   - {t: '`', s: '~'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - OUT USB
-  - OUT BLE
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp MB5'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - _
-  - +
-  - '{'
-  - '}'
-  - '|'
-  - '~'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - $$mdi:keyboard-space$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - $$mdi:arrow-up-bold$$
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: \, s: '|'}
+  - $$mdi:keyboard-esc$$
+  - {t: '1', h: LGUI, s: '!'}
+  - {t: '2', h: '$$mdi:apple-keyboard-option$$', s: '@'}
+  - {t: '3', h: '$$mdi:apple-keyboard-shift$$', s: '#'}
+  - {t: '4', h: '$$mdi:apple-keyboard-control$$', s: $}
+  - {t: '5', s: '%'}
+  - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-right-bold$$
+  - {t: '6', s: ^}
+  - {t: '7', h: '$$mdi:apple-keyboard-control$$', s: '&'}
+  - {t: '8', h: '$$mdi:apple-keyboard-shift$$', s: '*'}
+  - {t: '9', h: '$$mdi:apple-keyboard-option$$', s: (}
+  - {t: '0', h: RGUI, s: )}
+  - {t: '''', s: '"'}
+  - {t: BASE, h: '$$mdi:gesture-tap-hold$$', type: held}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-down-bold$$
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - {t: BASE, h: '$$mdi:gesture-tap-hold$$', type: held alternate}
+  - {t: '=', h: META, s: +}
+  - {t: '$$mdi:keyboard-return$$', h: CODE, type: held alternate}
+  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-space$$', h: CODE, type: held alternate}
+  - {t: '-', h: META, s: _}
   Fn:
   - '&studio_unlock'
   - F1
