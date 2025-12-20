@@ -43,12 +43,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: CODE, h: toggle}
-  - {t: '=', h: CODE, s: +}
-  - {t: '$$mdi:keyboard-return$$', h: NAV}
+  - {t: '=', h: NAV, s: +}
+  - {t: '$$mdi:keyboard-return$$', h: CODE}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-space$$', h: NAV}
-  - {t: '-', h: CODE, s: _}
+  - {t: '$$mdi:keyboard-space$$', h: CODE}
+  - {t: '-', h: NAV, s: _}
   NAV:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -92,12 +92,12 @@ layers:
   - RGB BRD
   - END
   - PG DN
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - INS
-  - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
+  - INS
+  - $$mdi:backspace-reverse-outline$$
+  - {type: held alternate}
   CODE:
   - {t: '`', s: '~'}
   - {t: '[', s: '{'}
@@ -141,12 +141,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: BASE, h: toggle}
-  - {t: '=', h: NAV, s: +, type: held}
-  - {t: '$$mdi:keyboard-return$$', h: CODE}
+  - {t: '=', h: NAV, s: +}
+  - {t: '$$mdi:keyboard-return$$', h: CODE, type: held}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-space$$', h: CODE}
-  - {t: '-', h: NAV, s: _, type: held alternate}
+  - {t: '$$mdi:keyboard-space$$', h: CODE, type: held alternate}
+  - {t: '-', h: NAV, s: _}
   Fn:
   - '&studio_unlock'
   - F1
